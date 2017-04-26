@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="Zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="第三建筑，娄底第三建筑，建筑，施工，工程">
+	<meta name="description" content="湖南省娄底市第三建筑工程有限公司自组建成立以来, 秉承“以科技为先导、以创新求发展、以质量求生存、以诚信待客户”的企业精神，实行“质量第一，信誉第一，用户至上”的经营理念，铸就了一个又一个建筑精品，赢得了市场的广泛认可和社会的一致好评。 ">
+	<title>第三建筑-娄星区首家贰级建安施工企业</title>
+	<link rel="stylesheet" type="text/css" href="static/css/index.css">
+	<link rel="shortcut icon" type="image/x-icon" href="static/images/logo_small.jpg" media="screen">
+</head>
+<body>
+	<!-- header -->
+	<div class="header_bar">
+		<div class="inner_box">
+			<!-- logo -->
+			<a href="#" class="logo_box">
+				<img src="static/images/logo.png" alt="logo" title="logo">
+			</a>
+			<!-- 链接 -->
+			<ul class="nav_bar animation_active">
+				<li><a href="./index.html">首页</a></li>
+				<li><a href="./synopsis.html">公司简介</a></li>
+				<li class="active"><a href="./speech.html">董事长致辞</a></li>
+				<li><a href="./project.html">工程业绩</a></li>
+				<li><a href="./contact_us.html">联系我们</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- synopsis -->
+	<div class="synopsis_box">
+		<div class="inner_box">
+			<!-- content -->
+			<div class="content">
+				<div class="title">
+					<h1>董事长致辞</h1>
+					<div class="info">
+						<span>2017-01-12 14:01:30</span>
+						<span>admin</span>
+						<span><img src="static/images/eye.png" alt="eye" title="eye">1158</span>
+					</div>
+				</div>
+				<div class="substance">
+					<p><img src="static/images/speech.jpg"></p>
+					<p>湖南省娄底市第三建筑工程有限公司自组建成立以来, 秉承“以科技为先导、以创新求发展、以质量求生存、以诚信待客户”的企业精神，实行“质量第一，信誉第一，用户至上”的经营理念，铸就了一个又一个建筑精品，赢得了市场的广泛认可和社会的一致好评。</p>
+					<p>精雕细作，我们脚踏实地；胸怀天下，我们志存高远。立足湖南，辐射全国，放眼全球。面对未来，我们只有一个目标：通过自身的实力和对社会的贡献，用“诚信和品质”塑造中国建筑产业的卓越品牌。我们深信：日臻成熟的湖南省娄底市第三建筑工程有限公司将会以更加稳健的步伐跨步前进。秉持诚信，开放理念,我公司愿与您携手共进，共创更加灿烂辉煌的明天。</p>
+				</div>
+			</div>
+			<!-- sidebar -->
+			<div class="sidebar animation_active animation_slide_right">
+				<div class="recommend">
+					<ul>
+						<li><a href="./synopsis.html">公司简介</a></li>
+						<li><a href="./speech.html" class="active">董事长致辞</a></li>
+						<li><a href="./project.html">工程业绩</a></li>
+						<li><a href="./contact_us.html">联系我们</a></li>
+					</ul>	
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 底部 -->
+	<div class="footer_box">
+		<div class="inner_box">
+			<p>第三建筑公司 版权所有 © 2012-2020 湘ICP备8888888</p>
+			<div class="powered_by_metinfo">Powered by 
+				<a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2507483326">Epat</a>
+				 V1.00.2017.0406
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="static/js/jquery1.42.min.js"></script>
+<script type="text/javascript" src="static/js/imgReady.js"></script>
+<!-- 自适应js -->
+<script type="text/javascript">
+	var softAdaption = function(){
+		var window_width = $(window).width();
+		if (window_width < 1200) {
+			$('.inner_box').css({
+				'width':(window_width - 30) + 'px',
+				'padding': '0 15px'
+			});
+		}
+
+		if (window_width < 800) {
+			$('.inner_box').css({
+				'width':(800 - 30) + 'px',
+				'padding': '0 15px'
+			});
+		}
+	}
+	softAdaption();
+	window.onresize = function () {
+		softAdaption();
+	}
+</script>
+<script type="text/javascript">
+	$('.synopsis_box .content .substance p img').each(function(index,ele){
+		$(this).width()
+		if($(this).width() > $('.synopsis_box .content .substance p').width()){
+			$(this).css({
+				'width':'100%'
+			})
+		}
+	})
+	$('.synopsis_box .list_box .img_box').each(function(index,ele){
+    	var url = $(this).attr('data_url');
+    	var _this = $(this);
+    	imgReady(url,function(){
+    		_this.append(this);
+    	});
+    });
+</script>
+
+</html>
