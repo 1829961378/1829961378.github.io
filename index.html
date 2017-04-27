@@ -200,20 +200,28 @@
 <script type="text/javascript">
 	var softAdaption = function(){
 		var window_width = $(window).width();
-		if (window_width < 1200) {
-			$('.inner_box').css({
-				'width':(window_width - 30) + 'px',
-				'padding': '0 15px'
-			});
-		}
 
 		if (window_width < 1000) {
+			console.log(1)
 			$('.inner_box').css({
 				'width':(1000 - 30) + 'px',
 				'padding': '0 15px'
 			});
 			$('body,html').css({
 				'width': '1000px'
+			});
+		} else if (window_width < 1200) {
+			$('.inner_box').css({
+				'width':(window_width - 30) + 'px',
+				'padding': '0 15px'
+			});
+			$('body,html').css({
+				'width': 'auto'
+			});
+		} else {
+			$('.inner_box').css({
+				'width': '1200px',
+				'padding': '0'
 			});
 		}
 	}
