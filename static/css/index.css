@@ -137,7 +137,7 @@ zoom: 1;
 .introduce .content p img{width: 100%;display: block;}
 
 /* 工程展示 */
-.engineering_exhibition{padding: 70px 0;background: #f5f5f5;}
+.engineering_exhibition{padding: 70px 0;background: #fff;}
 .engineering_list_box{position: relative;height: 220px;overflow: hidden;margin: 0 auto;margin-top: 30px;}
 .engineering_list_box .list_box{position: relative;height: 100%;width: 100%;overflow: hidden;}
 .engineering_list_box .list{height: 220px;position: absolute;top: 0;margin-right: 4px;padding-right: 4px;}
@@ -256,6 +256,11 @@ background: #000;
 /* contact_us */
 .contact_us_content li{margin-bottom: 16px;    font-size: 18px;font-weight: 300;line-height: 1.8;color: #222;word-wrap: break-word;}
 .contact_us_content .content_titile{font-weight: 700;line-height: 1.42857;font-size: 18px;}
+/* chairman_box */
+.chairman_box{background: #eee;padding: 100px 0 300px;}
+.chairman_box .content{padding-top: 200px;}
+.chairman_box .img_box{width: 70%;margin: 0 auto;}
+.chairman_box .img_box img{display: block;width: 100%;}
 /* 特效 */
 /* top */
 @-webkit-keyframes slide-top {
