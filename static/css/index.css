@@ -257,10 +257,11 @@ background: #000;
 .contact_us_content li{margin-bottom: 16px;    font-size: 18px;font-weight: 300;line-height: 1.8;color: #222;word-wrap: break-word;}
 .contact_us_content .content_titile{font-weight: 700;line-height: 1.42857;font-size: 18px;}
 /* chairman_box */
-.chairman_box{background: #eee;padding: 100px 0 300px;}
-.chairman_box .content{padding-top: 200px;}
-.chairman_box .img_box{width: 70%;margin: 0 auto;}
+.chairman_box{background: #eee;padding: 30px 0 70px;}
+.chairman_box .content{padding-top: 20px;}
+.chairman_box .img_box{width: 38%;float: left;margin-right: 2%;}
 .chairman_box .img_box img{display: block;width: 100%;}
+.chairman_txt{width: 60%;float: left;padding-top: 110px;}
 /* 特效 */
 /* top */
 @-webkit-keyframes slide-top {
