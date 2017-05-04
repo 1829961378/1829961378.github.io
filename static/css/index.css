@@ -215,7 +215,7 @@ background: #000;
 .speech{background: #fff;padding: 70px 0;}
 .speech .content{overflow: hidden;background: #fff;padding: 30px;margin-top: 30px;zoom:1;}
 .speech .content .img_box{width: 38%;margin-right: 2%;float: left;height: 320px;margin-top: 23px;}
-.speech .content .img_box img{width: 100%;display: block;height: 100%;}
+.speech .content .img_box img{width: 100%;display: block;}
 .speech .content .substance{float: left;width: 60%;}
 .speech .content .substance h1{font-size: 36px;font-weight: 300;color: #37474f;padding-bottom: 5px;text-indent: 36px;}
 .speech .content .substance p{margin-bottom: 16px;font-size: 18px;line-height: 1.8;font-weight: 300;color: #222;}
