@@ -258,7 +258,7 @@ background: #000;
 .contact_us_content .content_titile{font-weight: 700;line-height: 1.42857;font-size: 18px;}
 /* chairman_box */
 .chairman_box{background: #eee;padding: 30px 0 70px;}
-.chairman_box .content{padding-top: 20px;}
+.chairman_box .content{padding: 30px;}
 .chairman_box .img_box{width: 38%;float: left;margin-right: 2%;}
 .chairman_box .img_box img{display: block;width: 100%;}
 .chairman_txt{width: 60%;float: left;padding-top: 110px;}
