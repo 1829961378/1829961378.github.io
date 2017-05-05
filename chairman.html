@@ -43,8 +43,8 @@
 			<ul class="nav_bar animation_active">
 				<li><a href="./index.html">首页</a></li>
 				<li><a href="./synopsis.html">公司简介</a></li>
-				<li class="active"><a href="./speech.html">总经理致辞</a></li>
-				<li><a href="./chairman.html">董事长寄语</a></li>
+				<li><a href="./speech.html">总经理致辞</a></li>
+				<li class="active"><a href="./chairman.html">董事长寄语</a></li>
 				<li><a href="./project.html">工程业绩</a></li>
 				<li><a href="./contact_us.html">联系我们</a></li>
 			</ul>
@@ -56,17 +56,18 @@
 			<!-- content -->
 			<div class="content">
 				<div class="title">
-					<h1>总经理致辞</h1>
+					<h1>董事长寄语</h1>
 					<div class="info">
-						<span>2017-01-12 14:01:30</span>
+						<span>2017-01-15 14:02:32</span>
 						<span>admin</span>
-						<span><img src="static/images/eye.png" alt="eye" title="eye">1158</span>
+						<span><img src="static/images/eye.png" alt="eye" title="eye">1478</span>
 					</div>
 				</div>
 				<div class="substance">
-					<p><img src="static/images/general_manager.jpg"></p>
-					<p>湖南省娄底市第三建筑工程有限公司自组建成立以来, 秉承“以科技为先导、以创新求发展、以质量求生存、以诚信待客户”的企业精神，实行“质量第一，信誉第一，用户至上”的经营理念，铸就了一个又一个建筑精品，赢得了市场的广泛认可和社会的一致好评。</p>
-					<p>精雕细作，我们脚踏实地；胸怀天下，我们志存高远。立足湖南，辐射全国，放眼全球。面对未来，我们只有一个目标：通过自身的实力和对社会的贡献，用“诚信和品质”塑造中国建筑产业的卓越品牌。我们深信：日臻成熟的湖南省娄底市第三建筑工程有限公司将会以更加稳健的步伐跨步前进。秉持诚信，开放理念,我公司愿与您携手共进，共创更加灿烂辉煌的明天。</p>
+					<p class="chairman_content">
+						<img src="static/images/speech.jpg" alt="map" title="map" class="chairman_content_img">
+						<img src="static/images/chairman_txt.png" class="chairman_content_txt">
+					</p>
 				</div>
 			</div>
 			<!-- sidebar -->
@@ -74,8 +75,8 @@
 				<div class="recommend">
 					<ul>
 						<li><a href="./synopsis.html">公司简介</a></li>
-						<li><a href="./speech.html" class="active">总经理致辞</a></li>
-						<li><a href="./chairman.html">董事长寄语</a></li>
+						<li><a href="./speech.html">总经理致辞</a></li>
+						<li><a href="./chairman.html" class="active">董事长寄语</a></li>
 						<li><a href="./project.html">工程业绩</a></li>
 						<li><a href="./contact_us.html">联系我们</a></li>
 					</ul>	
@@ -95,7 +96,6 @@
 	</div>
 </body>
 <script type="text/javascript" src="static/js/jquery1.42.min.js"></script>
-<script type="text/javascript" src="static/js/imgReady.js"></script>
 <!-- 自适应js -->
 <script type="text/javascript">
 	var softAdaption = function(){
@@ -139,13 +139,15 @@
 			})
 		}
 	})
-	$('.synopsis_box .list_box .img_box').each(function(index,ele){
-    	var url = $(this).attr('data_url');
-    	var _this = $(this);
-    	imgReady(url,function(){
-    		_this.append(this);
-    	});
-    });
+	$(window).scroll(function(){
+		var current_top = $(window).scrollTop() + $(window).height() + 100;
+		$('.animate_box').each(function(index,ele){
+			if(current_top > $(this).offset().top){
+				$(this).addClass('animation_active');
+				return;
+			}
+		});
+	});
 </script>
 
 </html>
