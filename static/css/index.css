@@ -265,6 +265,12 @@ background: #000;
 .chairman_content{overflow: hidden;}
 .chairman_content_img{float: left;width: 40%;}
 .chairman_content_txt{float: left;width: 60%;padding-top: 80px;}
+
+.speech_content{overflow: hidden;}
+.speech_content p{overflow: hidden;}
+.speech_content_img_box{float: left;width: 40%;margin-right: 2%;padding-top: 65px;}
+.speech_content_img_box .speech_content_img{width: 100%;display: block;}
+.speech_content_txt{float: left;width: 58%;}
 /* 特效 */
 /* top */
 @-webkit-keyframes slide-top {
