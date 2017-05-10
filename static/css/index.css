@@ -269,11 +269,11 @@ background: #000;
 .chairman_content_img_box img{display: block;width: 100%;}
 .chairman_content_txt{float: left;width: 40%;margin: 0 10%;padding-top: 20px;}
 .speech_content{overflow: hidden;}
-.speech_content .name{text-align: right;color: #333;font-weight: 300;font-size: 20px;}
+.speech_content .name{text-align: right;color: #333;font-weight: 500;font-size: 20px;}
 .speech_content_img{float: left;width: 39%;padding: 0 20px 10px 0;}
 .speech_content_txt{float: left;width: 58%;}
 .speech_content_txt_box p{margin: 0 0 10px 0;padding: 0 5px;line-height: 1.7 !important;}
-.speech .content .substance .name{font-size: 18px;line-height: 1.8;font-weight: 300;color: #222;text-align: right;}
+.speech .content .substance .name{font-size: 18px;line-height: 1.8;font-weight: 500;color: #222;text-align: right;}
 /* 特效 */
 /* top */
 @-webkit-keyframes slide-top {
